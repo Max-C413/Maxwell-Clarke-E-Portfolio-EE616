@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Max | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Max</a>
+      <nav class="tabs">
+        <a class="tab active" href="index.html">Home</a>
+        <a class="tab" href="projects.html">Projects</a>
+        <a class="tab" href="experience.html">Experience</a>
+        <a class="tab" href="about.html">About</a>
+        <a class="tab" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Hi, I’m Max.</h1>
+      <p>Electrical engineering M.S. student focused on embedded ML, signal processing, and building practical systems.</p>
+      <div class="badges">
+        <span class="badge">Embedded AI</span>
+        <span class="badge">C / Python</span>
+        <span class="badge">DSP / FFT</span>
+        <span class="badge">Edge Systems</span>
+      </div>
+      <p style="margin-top:12px;">
+        Links:
+        <a href="https://github.com/YOUR-USERNAME">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/">LinkedIn</a> ·
+        <a href="assets/Max_Resume.pdf">Resume (PDF)</a>
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card half">
+        <h2>Featured Project: LiteRT</h2>
+        <p>AI-powered spectrum analyzer using TensorFlow Lite C API + FFT pipeline, targeted to Raspberry Pi deployment.</p>
+        <ul class="list">
+          <li>Real-time audio → FFT → classifier</li>
+          <li>Optimized inference in C</li>
+          <li>Logging + smoothing for robust labels</li>
+        </ul>
+        <p style="margin-top:10px;">
+          <a href="projects.html">See projects →</a>
+        </p>
+      </div>
+
+      <div class="card half">
+        <h2>What I’m looking for</h2>
+        <p>Roles in embedded ML / ML engineering / applied signal processing where I can ship systems end-to-end.</p>
+        <ul class="list">
+          <li>Edge inference and performance constraints</li>
+          <li>Hardware/software integration</li>
+          <li>Clear demos and measurable results</li>
+        </ul>
+        <p style="margin-top:10px;">
+          <a href="contact.html">Contact me →</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Quick navigation</h2>
+        <p>
+          Use the tabs to browse. The structure is intentionally simple: static HTML pages + one shared CSS file.
+          If you want a blog later, you can add <span class="kbd">blog.html</span> or a <span class="kbd">posts/</span> folder.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Max. Hosted on GitHub Pages.</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
