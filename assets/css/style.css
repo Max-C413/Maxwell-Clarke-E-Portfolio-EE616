@@ -1,0 +1,84 @@
+:root {
+  --bg: #0b0f19;
+  --card: #121a2a;
+  --text: #e8eefc;
+  --muted: #b7c3e0;
+  --accent: #6aa6ff;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Layout container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background: var(--card);
+}
+
+.hero h1 {
+  font-size: 28px;
+}
+
+.hero p {
+  color: var(--muted);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+/* Card */
+.card {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+}
+
+.card h2 {
+  margin-bottom: 8px;
+}
+
+/* Links */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 14px;
+}
