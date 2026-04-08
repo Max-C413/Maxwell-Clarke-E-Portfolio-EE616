@@ -82,3 +82,12 @@ a:hover {
   color: var(--muted);
   font-size: 14px;
 }
+
+.pdf-frame {
+  width: 100%;
+  height: 750px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-top: 12px;
+  background: white;
+}
