@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflections | Max's E-Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .reflection-item {
+      margin-bottom: 14px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.04);
+      overflow: hidden;
+    }
+
+    .reflection-item summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 16px 18px;
+      font-weight: 600;
+    }
+
+    .reflection-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .reflection-content {
+      padding: 0 18px 18px 18px;
+      color: var(--muted);
+    }
+
+    .reflection-content p {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Max</a>
+      <div class="tabs">
+        <a class="tab" href="index.html#about">About Me</a>
+        <a class="tab" href="index.html#learning">Integrated Learning</a>
+        <a class="tab active" href="reflections.html">Reflections</a>
+        <a class="tab" href="index.html#cv">CV</a>
+        <a class="tab" href="index.html#citations">Citations</a>
+        <a class="tab" href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Reflections</h1>
+      <p>
+        This page contains four reflections documenting my growth,
+        learning process, and experiences throughout my academic work.
+      </p>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>My Reflection Collection</h2>
+
+        <details class="reflection-item">
+          <summary>Reflection 1: Title Here</summary>
+          <div class="reflection-content">
+            <p>Paste your first reflection here.</p>
+          </div>
+        </details>
+
+        <details class="reflection-item">
+          <summary>Reflection 2: Title Here</summary>
+          <div class="reflection-content">
+            <p>Paste your second reflection here.</p>
+          </div>
+        </details>
+
+        <details class="reflection-item">
+          <summary>Reflection 3: Title Here</summary>
+          <div class="reflection-content">
+            <p>Paste your third reflection here.</p>
+          </div>
+        </details>
+
+        <details class="reflection-item">
+          <summary>Reflection 4: Title Here</summary>
+          <div class="reflection-content">
+            <p>Paste your fourth reflection here.</p>
+          </div>
+        </details>
+
+      </section>
+    </div>
+
+    <footer class="footer">
+      <p>© 2026 Max. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
